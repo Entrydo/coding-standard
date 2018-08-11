@@ -1,4 +1,5 @@
 imports:
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/clean-code.yml' }
   - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/php71.yml' }
 
 parameters:
@@ -7,3 +8,5 @@ parameters:
   exclude_checkers:
     - SlevomatCodingStandard\Sniffs\TypeHints\TypeHintDeclarationSniff
 
+  skip:
+    SlevomatCodingStandard\Sniffs\Classes\UnusedPrivateElementsSniff.WriteOnlyProperty: ~
