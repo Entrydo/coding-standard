@@ -1,0 +1,15 @@
+{
+    "name": "entrydo/coding-standard",
+    "description": "Entrydo Coding Standard fors for PHP projects",
+    "type": "library",
+    "require": {
+        "symplify/easy-coding-standard": "^4.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Mikeš",
+            "email": "j.mikes@me.com"
+        }
+    ]
+}
