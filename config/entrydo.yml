@@ -17,3 +17,6 @@ services:
   PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer: ~
   Symplify\CodingStandard\Fixer\Strict\BlankLineAfterStrictTypesFixer: ~
   PhpCsFixer\Fixer\LanguageConstruct\DeclareEqualNormalizeFixer: ~
+
+  # throwable
+  SlevomatCodingStandard\Sniffs\Exceptions\ReferenceThrowableOnlySniff: ~
