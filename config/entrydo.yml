@@ -1,0 +1,19 @@
+parameters:
+  indentation: tabs
+
+services:
+  PhpCsFixer\Fixer\ArrayNotation\ArraySyntaxFixer:
+    syntax: short
+  PhpCsFixer\Fixer\Import\NoUnusedImportsFixer: ~
+  PhpCsFixer\Fixer\FunctionNotation\VoidReturnFixer: ~
+  SlevomatCodingStandard\Sniffs\Classes\ClassConstantVisibilitySniff: ~
+
+  PhpCsFixer\Fixer\Alias\RandomApiMigrationFixer:
+    mt_rand: random_int
+    rand: random_int
+
+  PhpCsFixer\Fixer\Operator\TernaryToNullCoalescingFixer: ~
+
+  PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer: ~
+  Symplify\CodingStandard\Fixer\Strict\BlankLineAfterStrictTypesFixer: ~
+  PhpCsFixer\Fixer\LanguageConstruct\DeclareEqualNormalizeFixer: ~
