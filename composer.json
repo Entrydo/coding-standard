@@ -3,7 +3,7 @@
     "description": "Entrydo Coding Standard fors for PHP projects",
     "type": "library",
     "require": {
-        "symplify/easy-coding-standard": "^4.6"
+        "symplify/easy-coding-standard": "^5.3"
     },
     "license": "MIT",
     "authors": [
