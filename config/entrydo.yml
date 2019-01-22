@@ -3,10 +3,6 @@ imports:
   - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/php71.yml' }
 
 parameters:
-  indentation: 'tab'
-
-  exclude_checkers:
-    - SlevomatCodingStandard\Sniffs\TypeHints\TypeHintDeclarationSniff
-
   skip:
     SlevomatCodingStandard\Sniffs\Classes\UnusedPrivateElementsSniff.WriteOnlyProperty: ~
+    SlevomatCodingStandard\Sniffs\TypeHints\TypeHintDeclarationSniff: ~
